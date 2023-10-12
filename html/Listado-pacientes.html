@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Medico - Listado pacientes</title>
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <!-- Favicon -->
+    <link href="../img/favicon.png" rel="icon">
+</head>
+<body>
+    <header>
+        <h1>CENTRO MEDICO</h1>
+    </header>
+    <main>
+        <h2>LISTADO PACIENTES REGISTRADOS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Número de Cédula</th>
+                    <th>Edad</th>
+                    <th>Telefono</th>
+                    <th>Especialidad</th>
+                    <th>Medico</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla-pacientes">
+                <!-- Se agrega el contenido dinamicamente por medio de JS -->
+                <tr>
+                    <td>Nombre Prueba1</td>
+                    <td>Apellido Prueba1</td>
+                    <td>123456</td>
+                    <td>30</td>
+                    <td>30198765</td>
+                    <td>Medicina General</td>
+                    <td>Medico Medico</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <a href="../index.html"><input type="button" value="Volver Inicio"></a>
+        <a href="./registroPacientes.html"><input type="button" value="Registros Pacientes"></a>
+        <br>
+
+    </main>
+    <footer>
+        <h2>Realizado por:</h2>
+        <p>Javier Pinzón</p>
+    </footer>
+    <script src="../js/app.js"></script>
+</body>
+</html>
