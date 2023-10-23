@@ -16,6 +16,65 @@
     <header>
         <h1>CENTRO MEDICO</h1>
     </header>
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="../index.html" class="nav-item nav-link active">Home</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Medicos</a>
+                            <div class="dropdown-menu">
+                                <a href="./html/registroMedicos.html" class="dropdown-item">Registrar Médicos</a>
+                                <a href="./html/Listado-medicos.html" class="dropdown-item">Listado Medicos Registrados</a>                
+                            </div>
+                        </div>             
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pacientes</a>
+                            <div class="dropdown-menu">
+                                <a href="./html/registroPacientes.html" class="nav-item nav-link">Registrar Pacientes</a>
+                                <a href="./html/Listado-pacientes.html" class="dropdown-item">Listado Pacientes Registrados</a>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->      
+    
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="¿Qué estás buscando?">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Bar End -->   
     <main>
         <h2>REGISTRO MÉDICOS</h2>
         <form id="registro-medico-form">
@@ -53,6 +112,9 @@
         <h2>Realizado por:</h2>
         <p>Javier Pinzón</p>
     </footer>
-    <script src="../js/app.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
